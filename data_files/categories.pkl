@@ -1,0 +1,22 @@
+(lp0
+S'Health and Wellness'
+p1
+aS'Monthly Subscriptions'
+p2
+aS'Food'
+p3
+aS'Transportation'
+p4
+aS'Housing'
+p5
+aS'Entertainment'
+p6
+aS'Education'
+p7
+aS'Savings'
+p8
+aS'Vacations'
+p9
+aS'Other'
+p10
+a.
