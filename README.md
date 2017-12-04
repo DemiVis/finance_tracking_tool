@@ -1,4 +1,6 @@
 # finance_tracking_tool
-# tool for helping me track my finances and whatnot
+Python tool for helping me track my finances and whatnot
+Data files and encrypted files will be added to gitignore
 
-# not to be used unless explicitly given permission from Matthew Demi Vis
+# Use
+Not to be used in any way unless explicitly given permission from Matthew Demi Vis.
