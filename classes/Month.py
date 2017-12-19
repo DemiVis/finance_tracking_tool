@@ -34,7 +34,7 @@ class Month:
                 print "An ERROR has occured!!"
                 print "Log file for month ", self.name, " could not be opened."
         else:
-            print ("DIAG: Starting new log for Annual pot '" + self.name + "'" 
+            print ("DIAG: Starting new log for Month '" + self.name + "'" 
                    " at " + path)
             self.log_fp = open(path, "w+")
             self.log_action("Finances Log File\n"
@@ -56,4 +56,11 @@ class Month:
             return False
 
     def add_expense(self, expense):
-        pass
+        """ Add expense to month. """
+        self.expenses.append(expense)
+        self.log_action("Adding expense:")
+        self.log_action("  Description: " + expense.description)
+        self.log_action("  Category:    " + expense.category)
+        self.log_action("  Amount:      " + str(expense.amount))
+
+        self.log_action("", new_line=True)

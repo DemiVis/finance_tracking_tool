@@ -3,6 +3,7 @@ import AnnualPot
 import datetime
 import os
 
+
 class Year:
     """
     Year class. All encapsulating class for all tool data. The only thing
